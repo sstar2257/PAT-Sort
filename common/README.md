@@ -2,17 +2,9 @@
 [1006 Sign In and Sign Out](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928)  
 给定一串输入，对每次输入做比较取最大最小值  
 
-## 1016
-[1016 Phone Bills](https://pintia.cn/problem-sets/994805342720868352/problems/994805493648703488)  
-自定义排序，然后依次检索有效的账单整理输出  
-
 ## 1019
 [1019 General Palindromic Number](https://pintia.cn/problem-sets/994805342720868352/problems/994805487143337984)  
 进制转换，判断回文  
-
-## 1028
-[1028 List Sorting](https://pintia.cn/problem-sets/994805342720868352/problems/994805468327690240)  
-按照给定要求排序，自定义sort规则  
 
 ## 1035
 [1035 Password](https://pintia.cn/problem-sets/994805342720868352/problems/994805454989803520)  
@@ -36,16 +28,16 @@
 [1054 The Dominant Color](https://pintia.cn/problem-sets/994805342720868352/problems/994805422639136768)  
 输入一个二维矩阵，求其中出现次数最多的元素并输出。  
 
-## 1055
-[1055 The World's Richest](https://pintia.cn/problem-sets/994805342720868352/problems/994805421066272768)  
-给定一些富豪的id、age和wealth，进行K次询问,每次给出一个年龄范围，按照财富从大到小输出符合该年龄段的富豪id。需要仔细读题目，这题还需要剪枝，因为最多输出100，所以同一年龄超过100的可以先行去除。  
-
 ## 1063
 [1063 Set Similarity](https://pintia.cn/problem-sets/994805342720868352/problems/994805409175420928)  
 给定一些数集，求两个数集中相同数字的数量的比例。可以利用set自动排序的功能进行检索。  
 
+# 1105
+[1105 Spiral Matrix](https://pintia.cn/problem-sets/994805342720868352/problems/994805363117768704)  
+输入N个正整数，按照顺时针降序排列后，按行打印输出。因为输入都是正整数，所以可以把初始值设为0方便判断边界。如果输入数据不限制的话，得增加额外的变量判断边界。    
 
-
-
+## 1113
+[1113 Integer Set Partition](https://pintia.cn/problem-sets/994805342720868352/problems/994805357258326016)  
+输入一些整数，分为两个数集，要求两个数集中数的个数之差最小，和之差最大。注意输入的数据很大。  
 
 

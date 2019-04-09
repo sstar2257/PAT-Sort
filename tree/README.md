@@ -6,4 +6,16 @@
 [1064 Complete Binary Search Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805407749357568)  
 给定一组数字，可以构造唯一的完全二叉搜索树，按照层顺序输出。每次分为左右两部分递归，可以用vector来保存每层的数字。  
 
+# 1079
+[1079 Total Sales of Supply Chain](https://pintia.cn/problem-sets/994805342720868352/problems/994805388447170560)  
+供应链问题，给定一个类似树的结构，起售价以及利润率，求最后所有零售商的收入总和。用BFS和DFS都可以做。  
+
+# 1090
+[1090 Highest Price in Supply Chain](https://pintia.cn/problem-sets/994805342720868352/problems/994805376476626944)  
+供应链问题，求零售商的最高价格以及个数，其实就是求树的深度。  
+
+# 1106
+[1106 Lowest Price in Supply Chain](https://pintia.cn/problem-sets/994805342720868352/problems/994805362341822464)  
+供应链问题，求零售商的最低价格以及个数。  
+
 

@@ -7,4 +7,8 @@
 [1052 Linked List Sorting](https://pintia.cn/problem-sets/994805342720868352/problems/994805425780670464)  
 输入一个以数组形式给出的链表，排序后输出。利用map的自动排序很好解决。  
 
+## 1074
+[1074 Reversing Linked List](https://pintia.cn/problem-sets/994805342720868352/problems/994805394512134144)  
+输入一个以数组形式给出的链表，对前k个元素进行翻转后输出。可以用satck实现，但是感觉可以不记next地址，直接翻转vector方便。  
+
 
