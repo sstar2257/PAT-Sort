@@ -4,8 +4,8 @@
 #include <map>
 #include <vector>
 using namespace std;
-//»ù±¾Ëã·¨dijksra£¬Éî¶ÈÓÅÏÈËÑË÷Ó¦¸ÃÒ²¿ÉÒÔ
-//¼¸¸öÅĞ¶Ï±È½Ï¶ñĞÄ
+//åŸºæœ¬ç®—æ³•dijksraï¼Œæ·±åº¦ä¼˜å…ˆæœç´¢åº”è¯¥ä¹Ÿå¯ä»¥
+//å‡ ä¸ªåˆ¤æ–­æ¯”è¾ƒæ¶å¿ƒ
 int main()
 {
 	int N, K;
@@ -64,7 +64,7 @@ int main()
 		index = -1;
 		for (int j = 1; j < N; j++) {
 			if (dis[j] < min && !mark[j]) {
-				min = dis[j];//!!!!!·¸ÁËsbµÄ´íÎó
+				min = dis[j];//!!!!!çŠ¯äº†sbçš„é”™è¯¯
 				index = j;
 			}
 		}
@@ -72,7 +72,7 @@ int main()
 			break;
 		}
 		mark[index] = 1;
-		//ÔÚ½øĞĞ¼ÆËãÊ±¶àÊ¹ÓÃÖ±½Ó¸³Öµ£¬²»ÒªÓÃ+=£¬ÈİÒ×±ß½çÍâ³ö´í
+		//åœ¨è¿›è¡Œè®¡ç®—æ—¶å¤šä½¿ç”¨ç›´æ¥èµ‹å€¼ï¼Œä¸è¦ç”¨+=ï¼Œå®¹æ˜“è¾¹ç•Œå¤–å‡ºé”™
 		for (int j = 1; j < N; j++) {
 			if (!mark[j] && dis[index] + table[index][j] < dis[j]) {
 				dis[j] = dis[index] + table[index][j];			

@@ -43,7 +43,7 @@
 //		cout << "-1";
 //	}
 //	else {
-//		//֪��Ϊʲô��һ����Ĳ��Ե����ȥ�ˡ���������Ϊ����ж�������letter����������letter����ʻ��ظ���������
+//		//知道为什么有一个大的测试点过不去了。。。。因为这边判断条件是letter，大数据中letter大概率会重复！！！！
 //		while (len1 >= 1 && len2 >= 1) {
 //			if (str1[len1 - 1].letter != str2[len2 - 1].letter) {
 //				break;
@@ -65,7 +65,7 @@
 //}
 
 
-//ֻҪ�������е�һ�����ֵĽڵ�Ϳ��ԣ�����Ҫ������׺����ͬ,��Ϊ�Ǹ����ĺ����ڵ���һ�µġ�����������̫������
+//只要是链表中第一个出现的节点就可以，不需要整个后缀都相同,因为那个表的后续节点是一致的。。。。。想太复杂了
 #include<iostream>
 #include<vector>
 #include<algorithm>

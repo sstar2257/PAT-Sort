@@ -3,8 +3,8 @@
 #include <set>
 #include <vector>
 using namespace std;
-//ÓÃsetÔÚ×îºóÒ»¸ö²âÊÔµã»á³¬Ê±
-//setµÄ²åÈë»¹ÊÇºÜ·ÑÊ±¼äµÄ
+//ç”¨setåœ¨æœ€åä¸€ä¸ªæµ‹è¯•ç‚¹ä¼šè¶…æ—¶
+//setçš„æ’å…¥è¿˜æ˜¯å¾ˆè´¹æ—¶é—´çš„
 int main()
 {
 	int N, M;
@@ -63,7 +63,7 @@ int main()
 				ita++;
 			}
 		}
-		//ÕâÀï²»ĞèÒªÔÚ×ö²åÈëÇó²¢¼¯¡£¡£¡£Ö»ĞèÒªÇó³ö²¢¼¯µÄ´óĞ¡¼´¿É
+		//è¿™é‡Œä¸éœ€è¦åœ¨åšæ’å…¥æ±‚å¹¶é›†ã€‚ã€‚ã€‚åªéœ€è¦æ±‚å‡ºå¹¶é›†çš„å¤§å°å³å¯
 		//all.insert(list[a-1].begin(), list[a-1].end());
 		//all.insert(list[b-1].begin(), list[b-1].end());
 		double com_size = com.size();

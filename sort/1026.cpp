@@ -36,7 +36,7 @@ bool comp_tables(table a, table b) {
 	else
 		return a.no < b.no;
 }
-//wait_Timeµ¥Î»ÊÇs£¡£¡£¡£¡ÒòÎªÕâ¸ö¿¨ÁËºÃ¾Ã
+//wait_Timeå•ä½æ˜¯sï¼ï¼ï¼ï¼å› ä¸ºè¿™ä¸ªå¡äº†å¥½ä¹…
 bool comp_serve(mem a, mem b) {
 	int a_arr = a.h * 60 * 60 + a.m * 60 + a.s;
 	int b_arr = b.h * 60 * 60 + b.m * 60 + b.s;
@@ -98,7 +98,7 @@ int main()
 	for (int i = 0; i < N; i++) {
 		list.push_back(record[i]);
 	}
-	//µ±ÓĞ¶à¸öÆ¹ÅÒÇòÌ¨¿ÕÏĞÊ±£¬vip¹Ë¿Íµ½ÁË»áÊ¹ÓÃ×îĞ¡idµÄvipÇòÌ¨£¬¶ø²»ÊÇ×îĞ¡idµÄÇòÌ¨
+	//å½“æœ‰å¤šä¸ªä¹’ä¹“çƒå°ç©ºé—²æ—¶ï¼Œvipé¡¾å®¢åˆ°äº†ä¼šä½¿ç”¨æœ€å°idçš„vipçƒå°ï¼Œè€Œä¸æ˜¯æœ€å°idçš„çƒå°
 	vector<mem> res;
 	int table_time;
 	int mem_time;
@@ -114,7 +114,7 @@ int main()
 			break;
 		}
 		if (mem_time >= table_time) {
-			//Èç¹ûÊÇvip£¬»áÈ¥Ñ¡Ôñvip×ùÎ»,ËùÒÔÒªÏÈ¼ì²éÊÇ·ñÓĞvip×À
+			//å¦‚æœæ˜¯vipï¼Œä¼šå»é€‰æ‹©vipåº§ä½,æ‰€ä»¥è¦å…ˆæ£€æŸ¥æ˜¯å¦æœ‰vipæ¡Œ
 			if (t_mem.vip) {
 				auto it = tables.begin();
 				while (mem_time >= it->time && it != tables.end()) {
@@ -133,9 +133,9 @@ int main()
 					it++;
 				}
 			}
-			//µ±Ç°ÓĞvipÓÃ»§£¬Ã»ÓĞ¿ÕÓàµÄvip×À×ÓÊ±£¬vipµ±×öÆÕÍ¨ÓÃ»§½øÈë¶ÓÁĞÅÅĞò£»
-			//ÓĞ¿ÕÓàµÄvip×À×ÓÊ±£¬Ó¦¸ÃÏÈ¾Í×øvip×ùÎ»
-			//Ã»ÕÒµ½vip×ùÎ»
+			//å½“å‰æœ‰vipç”¨æˆ·ï¼Œæ²¡æœ‰ç©ºä½™çš„vipæ¡Œå­æ—¶ï¼Œvipå½“åšæ™®é€šç”¨æˆ·è¿›å…¥é˜Ÿåˆ—æ’åºï¼›
+			//æœ‰ç©ºä½™çš„vipæ¡Œå­æ—¶ï¼Œåº”è¯¥å…ˆå°±åvipåº§ä½
+			//æ²¡æ‰¾åˆ°vipåº§ä½
 			if(!is_vip){
 				t_mem.wait_time = 0;
 				tables.front().count++;
@@ -147,7 +147,7 @@ int main()
 				list.pop_front();
 			}
 		}
-		else if (!tables.begin()->vip) {//¼´½«¿Õ³öÆÕÍ¨×ùÎ»
+		else if (!tables.begin()->vip) {//å³å°†ç©ºå‡ºæ™®é€šåº§ä½
 			t_mem.wait_time = table_time - mem_time;
 			tables.front().count++;
 			if (t_mem.time <= 2 * 60)
@@ -157,8 +157,8 @@ int main()
 			res.push_back(t_mem);
 			list.pop_front();
 		}
-		else {//¼´½«¿Õ³öÀ´µÄÊÇvip×ùÎ»,¼ì²éÅÅ¶ÓµÄÈËÀïÊÇ·ñÓĞvip
-			//front ºÍ begin ·µ»ØµÄ¶«Î÷²»Ò»Ñù
+		else {//å³å°†ç©ºå‡ºæ¥çš„æ˜¯vipåº§ä½,æ£€æŸ¥æ’é˜Ÿçš„äººé‡Œæ˜¯å¦æœ‰vip
+			//front å’Œ begin è¿”å›çš„ä¸œè¥¿ä¸ä¸€æ ·
 			auto it = list.begin();
 			while (count_s(*it) <= table_time && it!=list.end()) {
 				if (it->vip) {

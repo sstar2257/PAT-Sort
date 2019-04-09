@@ -54,7 +54,7 @@ int main()
 				else {
 					table[tmp.addr].next = index;
 				}
-				if (i == 0 && count) {//一轮翻转后要把上一轮最后一个节点的next替换为新一组的第一个节点的addr
+				if (i == 0 && count) {//涓�杞炕杞悗瑕佹妸涓婁竴杞渶鍚庝竴涓妭鐐圭殑next鏇挎崲涓烘柊涓�缁勭殑绗竴涓妭鐐圭殑addr
 					table[last_end].next = tmp.addr;
 				}
 				if (i == K - 1) {

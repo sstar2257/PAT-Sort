@@ -6,7 +6,7 @@ using namespace std;
 int table[1001];
 vector<int> lv[20];
 
-//把输出和函数分开
+//鎶婅緭鍑哄拰鍑芥暟鍒嗗紑
 void putnode(int begin, int end, int lvl) {
 	if (begin == end) { 
 		lv[lvl].push_back(table[begin]);

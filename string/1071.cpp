@@ -43,7 +43,7 @@ int main()
 		}
 		cin.get(ch);
 	}
-	//µ±ÊäÈëµ½\nÖ®ºó£¬ĞèÒª¶Ôres×ö´¦Àí
+	//å½“è¾“å…¥åˆ°\nä¹‹åï¼Œéœ€è¦å¯¹resåšå¤„ç†
 	if (res.length() != 0) {
 		if (table.find(res) != table.end()) {
 			table[res]++;

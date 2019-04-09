@@ -8,7 +8,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-//Ö±½Ó´å´æ»áÄÚ´æ³¬ÏŞ£¬ÕâÀïÏÈ×öÒ»¸ö×ª»»
+//ç›´æ¥æ‘å­˜ä¼šå†…å­˜è¶…é™ï¼Œè¿™é‡Œå…ˆåšä¸€ä¸ªè½¬æ¢
 vector<string> name2id;
 
 bool comp(int a, int b) {

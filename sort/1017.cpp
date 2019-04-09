@@ -54,7 +54,7 @@ int main()
 	int now_time;
 	int need_time;
 	int count = 0;
-	//ÒÔÈË×÷µ¥Î»
+	//ä»¥äººä½œå•ä½
 	while (!line.empty()) {
 		
 		sort(w_time, &w_time[K]);

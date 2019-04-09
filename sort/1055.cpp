@@ -34,7 +34,7 @@ bool cmp(person p1, person p2)
 }
 
 person num[N];
-//ÕâÌâĞèÒª¼ôÖ¦£¨ĞèÒª×ĞÏ¸¶ÁÌâÄ¿£©
+//è¿™é¢˜éœ€è¦å‰ªæï¼ˆéœ€è¦ä»”ç»†è¯»é¢˜ç›®ï¼‰
 int main()
 {
 	//freopen("in", "r", stdin);  
@@ -44,7 +44,7 @@ int main()
 	for (int i = 0; i < n; ++i) {
 		scanf("%s%d%d", num[i].name, &num[i].age, &num[i].worth);
 	}
-	sort(num, num + n, cmp); // ¶ÔËùÓĞµÄÖ±½ÓÅÅĞòÏÈ
+	sort(num, num + n, cmp); // å¯¹æ‰€æœ‰çš„ç›´æ¥æ’åºå…ˆ
 
 	int ageCount[201] = { 0 };
 
@@ -53,7 +53,7 @@ int main()
 	int filter_num = 0;
 	for (int i = 0; i < n; i++)
 	{
-		if (ageCount[num[i].age] < 100) // ageCount[] ´æÏàÓ¦ÄêÁäµÄÈËÊı M (<= 100)
+		if (ageCount[num[i].age] < 100) // ageCount[] å­˜ç›¸åº”å¹´é¾„çš„äººæ•° M (<= 100)
 		{
 			ageCount[num[i].age]++;
 			filter[filter_num++] = i;
@@ -114,7 +114,7 @@ int main()
 //		table[one.age].push_back(one);
 //	}
 //
-//	//ÕâÖÖ×ö·¨Ã¿´Î¶¼ÒªÅÅĞò£¬Ê±¼äÏûºÄ±ÈÖ»ÓÃÒ»¸övectorÇÒÅÅĞòÒ»´ÎÒª´ó¡£
+//	//è¿™ç§åšæ³•æ¯æ¬¡éƒ½è¦æ’åºï¼Œæ—¶é—´æ¶ˆè€—æ¯”åªç”¨ä¸€ä¸ªvectorä¸”æ’åºä¸€æ¬¡è¦å¤§ã€‚
 //	for (int i = 0; i < K; i++) {
 //		int M, Amin, Amax;
 //		scanf("%d %d %d", &M, &Amin, &Amax);

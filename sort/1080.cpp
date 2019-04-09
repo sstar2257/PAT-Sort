@@ -18,7 +18,7 @@ int quota[100];
 set<int> admission[100];
 set<int> same_rank;
 
-//comp里不能用>=这种东西
+//comp閲屼笉鑳界敤>=杩欑涓滆タ
 bool comp(stu a, stu b) {
 	double sum_a = ((double)a.ge + a.gi) / 2;
 	double sum_b = ((double)b.ge + b.gi) / 2;

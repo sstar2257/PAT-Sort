@@ -31,7 +31,7 @@ int main()
 	for (int i = begin; i >= 0; i = table[i].next) {
 		list[table[i].num] = i;
 	}
-	//这个地址的输出格式也要注意！！！
+	//杩欎釜鍦板潃鐨勮緭鍑烘牸寮忎篃瑕佹敞鎰忥紒锛侊紒
 	cout << list.size() << " ";
 	printf("%05d\n", list.begin()->second);
 	for (auto it = list.begin(); it != list.end();) {

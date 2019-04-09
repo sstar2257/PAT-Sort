@@ -40,4 +40,8 @@
 [1113 Integer Set Partition](https://pintia.cn/problem-sets/994805342720868352/problems/994805357258326016)  
 输入一些整数，分为两个数集，要求两个数集中数的个数之差最小，和之差最大。注意输入的数据很大。  
 
+## 1120
+[1120 Friend Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805352925609984)  
+输入一些数字，计算每个数字的各位之和sum，输出所有不同的sum。可以利用set的不重性质直接进行插入操作。  
+
 

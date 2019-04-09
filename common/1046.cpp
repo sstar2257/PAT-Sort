@@ -5,7 +5,6 @@ int main()
 {
 	int N;
 	cin >> N;
-	//存储各地到编号1的距离
 	int *table = new int[N]();
 	table[0] = 0;
 	int sum = 0;
