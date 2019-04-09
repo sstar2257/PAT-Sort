@@ -18,4 +18,9 @@
 [1106 Lowest Price in Supply Chain](https://pintia.cn/problem-sets/994805342720868352/problems/994805362341822464)  
 供应链问题，求零售商的最低价格以及个数。  
 
+# 1143
+[1143 Lowest Common Ancestor](https://pintia.cn/problem-sets/994805342720868352/problems/994805343727501312)  
+给定一个二叉搜索树的先序序列，进行k次询问，每次给出两个节点，求最低公共先祖。  
+*递归构造二叉树、递归查找公共先祖*  
+1143.cpp为后来ac的代码，1143_2.cpp为原来的思路。  
 

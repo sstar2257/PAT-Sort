@@ -37,6 +37,13 @@
 [1095 Cars on Campus](https://pintia.cn/problem-sets/994805342720868352/problems/994805371602845696)  
 输入一些车的in和out时间，求给定时间点，停靠车辆的数量，以及一天之中停车时间最长的车牌号。  
 
+## 1137
+[1137 Final Grading](https://pintia.cn/problem-sets/994805342720868352/problems/994805345401028608)  
+给出一些学生id和平时成绩、期中成绩、期末成绩，按照给定要求整理后排序输出。  
+
+## 1141
+[1141 PAT Ranking of Institutions](https://pintia.cn/problem-sets/994805342720868352/problems/994805344222429184)  
+给定一些学校的id、成绩，按照给定规则整理排序后输出。  
 
 
 

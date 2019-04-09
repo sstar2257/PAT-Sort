@@ -44,4 +44,8 @@
 [1120 Friend Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805352925609984)  
 输入一些数字，计算每个数字的各位之和sum，输出所有不同的sum。可以利用set的不重性质直接进行插入操作。  
 
+# 1145
+[1145 Hashing - Average Search Time](https://pintia.cn/problem-sets/994805342720868352/problems/994805343236767744)  
+给定一个数组，使用二次再散列法构造一个符合要求的hash table。然后输入一些数字，求平均搜索时间。  
+考察hash table的一些概念，可以找资料看一看。注意hash table和stl中的map不是一个东西。  
 

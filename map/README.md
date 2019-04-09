@@ -46,6 +46,31 @@ N皇后问题，判断给定的序列是否为N皇后问题的一组解。
 ![测试样例](../img/subway.jpg)  
 给出任意两个车站，打印出最短路径。  
 
+## 1134
+[1134 Vertex Cover](https://pintia.cn/problem-sets/994805342720868352/problems/994805346428633088)  
+一幅图的顶点的集合是这样的一个集合：图中的每一条边都能关联到集合内的一个点。  
+给定一幅图，然后给出一些点集，问是否符合上面的规则。  
+
+# 1139
+[1139 First Contact](https://pintia.cn/problem-sets/994805342720868352/problems/994805344776077312)  
+给定一个朋友关系网，每次询问给定任意两人，通过类似boy-boy-girl-gril的中转关系使两人取得联系，求这样的关系对。（具体规则见题目）  
+题目有几个需要注意的地方，详见注释。  
+1139.cpp是网上找的某个大佬的代码，1139_2.cpp是按照我开始的思路改写的。  
+
+## 1142
+[1142 Maximal Clique](https://pintia.cn/problem-sets/994805342720868352/problems/994805343979159552)  
+给定一个无向图，假设一个clique是这样一个点集：clique内的任意两点都互相连接。若在图中找不到任何一点p，使得p加入clique后仍然为一个clique，则原来的clique为maximal clique。  
+输入几组点集，判断是否为clique以及最大clique。  
+
+## 1146
+[1146 Topological Order](https://pintia.cn/problem-sets/994805342720868352/problems/994805343043829760)  
+给定一个有向图，输入一些序列，输出哪些不是[有向图的拓扑序列](https://zh.wikipedia.org/wiki/拓撲排序)。  
+![topological order](../img/topological_order)
+
+## 1154
+[1154 Vertex Coloring](https://pintia.cn/problem-sets/994805342720868352/problems/1071785301894295552)  
+proper vertex coloring：图中任意两个相邻的点不使用同样的颜色，这样的染色序列叫做合适的染色。  
+给定一个无向图，输入一些序列，判断是否为proper vertex coloring。  
 
 	
 
