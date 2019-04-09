@@ -1,6 +1,34 @@
+## 1001
+[1001 A+B Format](https://pintia.cn/problem-sets/994805342720868352/problems/994805528788582400)  
+格式化输出两个输入数字之和。  
+
+## 1002
+[1002 A+B for Polynomials](https://pintia.cn/problem-sets/994805342720868352/problems/994805526272000000)  
+输入两个多项式A、B，相加后输出。
+
+## 1005
+[1005 Spell It Right](https://pintia.cn/problem-sets/994805342720868352/problems/994805519074574336)  
+输入一个超大数，对各位求和之后，读出这个和。  
+
 ## 1006
 [1006 Sign In and Sign Out](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928)  
 给定一串输入，对每次输入做比较取最大最小值  
+
+## 1008
+[1008 Elevator](https://pintia.cn/problem-sets/994805342720868352/problems/994805511923286016)  
+给定一个电梯上一层楼、下一层楼以及停靠花费的时间，输入楼层的序列，输出花费的总时间。  
+
+## 1009
+[1009 Product of Polynomials](https://pintia.cn/problem-sets/994805342720868352/problems/994805509540921344)  
+多项式相乘  
+
+## 1011
+[1011 World Cup Betting](https://pintia.cn/problem-sets/994805342720868352/problems/994805504927186944)  
+一道简单的练手题，取每次输入最大值，注意下输入输出就行。  
+
+## 1015
+[1015 Reversible Primes](https://pintia.cn/problem-sets/994805342720868352/problems/994805495863296000)  
+给定一个十进制数A和一个进制r，输出A在r进制下的表示翻转以后的十进制数是否为质数。  
 
 ## 1019
 [1019 General Palindromic Number](https://pintia.cn/problem-sets/994805342720868352/problems/994805487143337984)  
