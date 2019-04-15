@@ -34,6 +34,15 @@
 [1019 General Palindromic Number](https://pintia.cn/problem-sets/994805342720868352/problems/994805487143337984)  
 进制转换，判断回文  
 
+## 1027
+[1027 Colors in Mars](https://pintia.cn/problem-sets/994805342720868352/problems/994805470349344768)  
+送分题，13进制转16进制后按格式输出。  
+
+# 1029
+[1029 Median](https://pintia.cn/problem-sets/994805342720868352/problems/994805466364755968)  
+好题，给定两个排完序的升序序列，输出他们的中位数。注意每个序列都很大，合并会导致内存超限。  
+很经典的分治法的例子，可以网上搜些教程看看。  
+
 ## 1035
 [1035 Password](https://pintia.cn/problem-sets/994805342720868352/problems/994805454989803520)  
 简单的字符串字符匹配和替换操作  
