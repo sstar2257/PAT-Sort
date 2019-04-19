@@ -7,6 +7,10 @@
 [1020 Tree Traversals](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072)  
 给定一棵树的中序和后序遍历序列，输出树的层序遍历。  
 
+# 1043
+[1043 Is It a Binary Search Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805440976633856)  
+给定一个序列，问是否为一棵二叉搜索树或其镜像的前序遍历。递归。  
+
 # 1053
 [1053 Path of Equal Weight](https://pintia.cn/problem-sets/994805342720868352/problems/994805424153280512)  
 给定一棵树的结构和每个节点的权重，给定一个数字N，求所有根节点到叶节点的路径中权重之和等于N的路径并打印。深度优先搜索的应用。  

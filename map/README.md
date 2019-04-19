@@ -87,10 +87,22 @@ N皇后问题，判断给定的序列是否为N皇后问题的一组解。
 给定一个有向图，输入一些序列，输出哪些不是[有向图的拓扑序列](https://zh.wikipedia.org/wiki/拓撲排序)。  
 ![topological order](../img/topological_order)
 
+## 1149
+[1149 Dangerous Goods Packaging](https://pintia.cn/problem-sets/994805342720868352/problems/1038429908921778176)  
+给定一组整数对，每个整数对表示这两样东西不能放在一起，否则会产生危险。然后输入一些集合，问该集合是否安全。简单的STL的应用。  
+
 ## 1154
 [1154 Vertex Coloring](https://pintia.cn/problem-sets/994805342720868352/problems/1071785301894295552)  
 proper vertex coloring：图中任意两个相邻的点不使用同样的颜色，这样的染色序列叫做合适的染色。  
 给定一个无向图，输入一些序列，判断是否为proper vertex coloring。  
 
-	
+# 1072
+[1072 Gas Station](https://pintia.cn/problem-sets/994805342720868352/problems/994805396953219072)  
+给定一个城市的图和几个备选加油站的位置，要求选择出最佳的加油站位置：
+1. 能满足所有城市的需求(加油站有最大的服务范围)
+2. 最短距离最小
+3. 最短距离相等的情况下，平均距离最小
+4. 如果上述条件都相同，输出序号最小
+用Floyd算法会超时，其实不需要算任意两点之间的最短距离，只需要对加油站使用dijksra算法，计算出加油站到每个点的最短路径即可。  
+
 

@@ -47,9 +47,22 @@
 [1035 Password](https://pintia.cn/problem-sets/994805342720868352/problems/994805454989803520)  
 简单的字符串字符匹配和替换操作  
 
+## 1036
+[1036 Boys vs Girls](https://pintia.cn/problem-sets/994805342720868352/problems/994805453203030016)  
+输入一组男女生的成绩，输出最好女生与最差男生的分数之差。  
+
 ## 1039
 [1039 Course List for Student](https://pintia.cn/problem-sets/994805342720868352/problems/994805447855292416)  
 简单的map和set的应用,输入为每个学生所选的课程，输出每个课程中的所有学生。  
+
+## 1042
+[1042 Shuffling Machine](https://pintia.cn/problem-sets/994805342720868352/problems/994805442671132672)  
+对于一副扑克牌，给定一个排序顺序，输出重复k次之后的牌序。  
+
+# 1044
+[1044 Shopping in Mars](https://pintia.cn/problem-sets/994805342720868352/problems/994805439202443264)  
+输入一个序列，以及一个目标值M，求所有连续的子序列和恰好满足a1+...+an == M，输出对应的下标[1, n]。若找不到恰好满足，则输出大于M的最小和。  
+因为输入的值都不为负，所以可以用简单的滑动窗口实现。  
 
 # 1046
 [1046 Shortest Distance](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424)  
@@ -61,9 +74,27 @@
 [1047 Student List for Course](https://pintia.cn/problem-sets/994805342720868352/problems/994805433955368960)  
 1039的相反题，输入为每个课程中的所有学生，输出每个学生所选的课。  
 
+## 1048
+[1048 Find Coins](https://pintia.cn/problem-sets/994805342720868352/problems/994805432256675840)  
+简单的找硬币问题，给定一个序列表示币值，以及要求的和SUM。输出是否能找到两枚V1 < V2 并且V1 + V2 = SUM，若结果不唯一，输出币值V1最小的那个解。  
+
+# 1051
+[1051 Pop Sequence](https://pintia.cn/problem-sets/994805342720868352/problems/994805427332562944)  
+好题。给定一个栈的最大容积，栈的规则为按顺序压入1-N，随机弹出。给定一串序列，问该序列是否有可能是栈的弹出顺序。  
+针对序列中的每个数，把每种情况考虑清楚即可。每次判断还需要确认栈是否溢出。  
+
 ## 1054
 [1054 The Dominant Color](https://pintia.cn/problem-sets/994805342720868352/problems/994805422639136768)  
 输入一个二维矩阵，求其中出现次数最多的元素并输出。  
+
+# 1057
+[1057 Stack](https://pintia.cn/problem-sets/994805342720868352/problems/994805417945710592)  
+实现取栈的中位数操作。针对输入的指令，输出对应的值。  
+我是用了两个multiset做辅助，分别储存小于中位数和大于等于中位数的集合，容易理解但是效率应该不高。注意set的erase操作会删除迭代器。  
+
+# 1059
+[1059 Prime Factors](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488)  
+因数分解。对于输出格式有要求。测试用例没有很严格，很容易ac。  
 
 ## 1063
 [1063 Set Similarity](https://pintia.cn/problem-sets/994805342720868352/problems/994805409175420928)  
@@ -80,6 +111,14 @@
 ## 1120
 [1120 Friend Numbers](https://pintia.cn/problem-sets/994805342720868352/problems/994805352925609984)  
 输入一些数字，计算每个数字的各位之和sum，输出所有不同的sum。可以利用set的不重性质直接进行插入操作。  
+
+## 1124
+[1124 Raffle for Weibo Followers](https://pintia.cn/problem-sets/994805342720868352/problems/994805350803292160)  
+转发抽奖，遇到重复的就跳过选取下一个。  
+
+## 1041
+[1041 Be Unique](https://pintia.cn/problem-sets/994805342720868352/problems/994805444361437184)  
+输入一组数，输出第一个没有重复的数。  
 
 # 1145
 [1145 Hashing - Average Search Time](https://pintia.cn/problem-sets/994805342720868352/problems/994805343236767744)  

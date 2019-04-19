@@ -16,6 +16,10 @@
 [1024 Palindromic Number](https://pintia.cn/problem-sets/994805342720868352/problems/994805476473028608)
 输入一个数N和最大步数K，问经过至多K步之后，该数能否成为一个回文数（处理步骤：新数=原数+原数的翻转）。注意字符串加法的效率以及首位的0。  
 
+## 1038
+[1038 Recover the Smallest Number](https://pintia.cn/problem-sets/994805342720868352/problems/994805449625288704)  
+输入一组不超过8位的非负整数（首位可能有0），输出拼接后的最小数。  
+
 ## 1050
 [1050 String Subtraction](https://pintia.cn/problem-sets/994805342720868352/problems/994805429018673152)  
 简单的字符串减法,输入两个字符串S1、S2，去除S1中所有在S2中出现的字符。因为只要输出去除后的结果就行，所以不需要对原字符串进行操作。  

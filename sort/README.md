@@ -65,4 +65,6 @@
 [1153 Decode Registration Card of PAT](https://pintia.cn/problem-sets/994805342720868352/problems/1071785190929788928)  
 输入一组数据，按照题目要求根据不同输入进行分类输出。题目不难，就是有点繁琐。  
 
-
+## 1062
+[1062 Talent and Virtue](https://pintia.cn/problem-sets/994805342720868352/problems/994805410555346944)  
+题目描述很复杂，抽象出来就是对输入的一组成绩，按照给定要求排序后输出。  
