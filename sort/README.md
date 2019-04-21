@@ -33,9 +33,16 @@
 [1028 List Sorting](https://pintia.cn/problem-sets/994805342720868352/problems/994805468327690240)  
 按照给定要求排序，自定义sort规则  
 
+## 1037
+[1037 Magic Coupon](https://pintia.cn/problem-sets/994805342720868352/problems/994805451374313472)  
+输入两个包含正负数的数组，问其中任意元素两两相乘之后相加，能得到最大的和是多少。  
+
 ## 1055
 [1055 The World's Richest](https://pintia.cn/problem-sets/994805342720868352/problems/994805421066272768)  
 给定一些富豪的id、age和wealth，进行K次询问,每次给出一个年龄范围，按照财富从大到小输出符合该年龄段的富豪id。需要仔细读题目，这题还需要剪枝，因为最多输出100，所以同一年龄超过100的可以先行去除。  
+# 1067
+[1067 Sort with Swap(0, i)](https://pintia.cn/problem-sets/994805342720868352/problems/994805403651522560)  
+输入0~N-1的任意排列，每次交换0和任意一个数，输出使数组有序需要最少的交换次数。  
 
 # 1075
 [1075 PAT Judge](https://pintia.cn/problem-sets/994805342720868352/problems/994805393241260032)  
@@ -49,9 +56,30 @@
 [1083 List Grades](https://pintia.cn/problem-sets/994805342720868352/problems/994805383929905152)  
 输入一组学生的姓名、id和成绩，给定一个范围，按照成绩从大到小顺序输出。  
 
+# 1089
+[1089 Insert or Merge](https://pintia.cn/problem-sets/994805342720868352/problems/994805377432928256)  
+给出插入排序和归并排序的定义，输入两个序列，问后者是前者的插入排序或归并排序的中间序列，并给出经过下一步排序之后的序列。  
+好题，对理解排序的实现很有帮助。  
+
 ## 1095
 [1095 Cars on Campus](https://pintia.cn/problem-sets/994805342720868352/problems/994805371602845696)  
 输入一些车的in和out时间，求给定时间点，停靠车辆的数量，以及一天之中停车时间最长的车牌号。  
+
+# 1098
+[1098 Insertion or Heap Sort](https://pintia.cn/problem-sets/994805342720868352/problems/994805368847187968)  
+和1089同类型的题，判断是插入排序还是堆排序。  
+
+## 1101
+[1101 Quick Sort](https://pintia.cn/problem-sets/994805342720868352/problems/994805366343188480)  
+在快排算法中，核心算法是选定一个基准并根据这个基准将数据分为两部分。输入一个序列，假设这个序列是快排过程中的中间序列，输出可能作为基准的数据。  
+
+# 1109
+[1109 Group Photo](https://pintia.cn/problem-sets/994805342720868352/problems/994805360043343872)  
+输入一组学生的姓名和身高，按给定的要求排成K行，输出排队后的顺序。  
+
+# 1129
+[1129 Recommendation System](https://pintia.cn/problem-sets/994805342720868352/problems/994805348471259136)  
+实现一个简单的推荐系统，推荐的依据是前面输入的频次。  
 
 ## 1137
 [1137 Final Grading](https://pintia.cn/problem-sets/994805342720868352/problems/994805345401028608)  
