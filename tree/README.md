@@ -76,6 +76,10 @@
 [1127 ZigZagging on a Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805349394006016)  
 给定一棵树的中序和后序遍历顺序，输出其“之”字形遍历的顺序。  
 
+# 1130
+[1130 Infix Expression](https://pintia.cn/problem-sets/994805342720868352/problems/994805347921805312)  
+给定一棵表示运算表达式的二叉树，输出其中序表示，难点在于需要判断是否要加括号。  
+
 ## 1135
 [1135 Is It A Red-Black Tree](https://pintia.cn/problem-sets/994805342720868352/problems/994805346063728640)  
 给定一棵树，判断其是否为红黑树。  
